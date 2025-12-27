@@ -1,0 +1,42 @@
+[
+  {
+    "id": "metodo-escala-lucrativa",
+    "categoria": "Tráfego Pago",
+    "slug_categoria": "trafego-pago",
+    "thumbnail": "/images/metodo-escala.jpg",
+    "nome": "Método Escala Lucrativa",
+    "descricao": "O passo a passo definitivo para automatizar suas vendas na PerfectPay utilizando tráfego pago de baixo custo.",
+    "valor": "97,00",
+    "checkout_url": "https://pay.perfectpay.com.br/PPU38D...",
+    "rate": 4.9,
+    "avaliacoes_count": 1240,
+    "tags": ["Mais Vendido", "Hot"],
+    "reviews_usuarios": [
+      {
+        "nome": "Marcos Silva",
+        "comentario": "Realmente funciona! Em 3 dias já fiz minha primeira venda.",
+        "estrelas": 5
+      }
+    ]
+  },
+  {
+    "id": "script-converso-pro",
+    "categoria": "Automação",
+    "slug_categoria": "automacao",
+    "thumbnail": "/images/script-pro.jpg",
+    "nome": "Script Conversor Pro",
+    "descricao": "Script de automação para WhatsApp que triplica a conversão de boletos e pix gerados.",
+    "valor": "147,90",
+    "checkout_url": "https://pay.perfectpay.com.br/PPU38E...",
+    "rate": 4.7,
+    "avaliacoes_count": 850,
+    "tags": ["Estratégico"],
+    "reviews_usuarios": [
+      {
+        "nome": "Ricardo Souza",
+        "comentario": "Salvou minha operação, a recuperação de carrinho é bizarra.",
+        "estrelas": 5
+      }
+    ]
+  }
+]
