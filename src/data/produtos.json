@@ -1,13 +1,13 @@
 [
   {
-    "id": "metodo-escala-lucrativa",
+    "id": "trafego-pago",
     "categoria": "Tráfego Pago",
     "slug_categoria": "trafego-pago",
-    "thumbnail": "/images/metodo-escala.jpg",
-    "nome": "Método Escala Lucrativa",
-    "descricao": "O passo a passo definitivo para automatizar suas vendas na PerfectPay utilizando tráfego pago de baixo custo.",
-    "valor": "97,00",
-    "checkout_url": "https://pay.perfectpay.com.br/PPU38D...",
+    "thumbnail": "/images/trafego_pago.png",
+    "nome": "Campanhas lucrativas ADS",
+    "descricao": "Domine as Vendas Online do Zero ao Lucro Aprenda o passo a passo prático de Facebook e Google Ads para vender qualquer produto ou serviço. Um treinamento direto, sem enrolação, feito para quem busca atrair clientes qualificados e lucrar todos os dias, independente do nicho.",
+    "valor": "R$ 200,00",
+    "checkout_url": "https://go.hotmart.com/O103565470K",
     "rate": 4.9,
     "avaliacoes_count": 1240,
     "tags": ["Mais Vendido", "Hot"],
@@ -20,22 +20,42 @@
     ]
   },
   {
-    "id": "script-converso-pro",
+    "id": "mestre-do-exel",
     "categoria": "Automação",
     "slug_categoria": "automacao",
-    "thumbnail": "/images/script-pro.jpg",
-    "nome": "Script Conversor Pro",
-    "descricao": "Script de automação para WhatsApp que triplica a conversão de boletos e pix gerados.",
-    "valor": "147,90",
-    "checkout_url": "https://pay.perfectpay.com.br/PPU38E...",
+    "thumbnail": "/images/exel.png",
+    "nome": "Mestre do Excel",
+    "descricao": "Mestre do Excel: Do Zero ao Dashboard Domine a ferramenta mais exigida do mercado. Aprenda a automatizar planilhas, criar relatórios inteligentes e dashboards de alto impacto para acelerar sua carreira.",
+    "valor": "R$ 97,00",
+    "checkout_url": "https://go.hotmart.com/S103565419Y?dp=1",
     "rate": 4.7,
     "avaliacoes_count": 850,
-    "tags": ["Estratégico"],
+    "tags": ["Produtividade", "Automação", "Escalável"],
     "reviews_usuarios": [
       {
         "nome": "Ricardo Souza",
         "comentario": "Salvou minha operação, a recuperação de carrinho é bizarra.",
         "estrelas": 5
+      }
+    ]
+  },
+  {
+    "id": "Word-Express",
+    "categoria": "Automação",
+    "slug_categoria": "automacao",
+    "thumbnail": "/images/CursoWordExpress.png",
+    "nome": "Word Express",
+    "descricao": "Word Express: Documentos de Alto Impacto Domine a edição profissional de documentos. Aprenda do zero à formatação avançada, criando relatórios, propostas e apresentações que se destacam no mercado de trabalho.",
+    "valor": "R$ 57,00",
+    "checkout_url": "https://go.hotmart.com/C103568007I?dp=1",
+    "rate": 4.0,
+    "avaliacoes_count": 780,
+    "tags": ["Produtividade", "Automação", "Escalável"],
+    "reviews_usuarios": [
+      {
+        "nome": "Laís",
+        "comentario": "Em um mundo cada vez mais digital, ter habilidades avançadas em Microsoft Word se tornou essencial para o sucesso profissional.",
+        "estrelas": 4
       }
     ]
   }
