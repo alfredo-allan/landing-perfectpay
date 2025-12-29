@@ -64,7 +64,7 @@ export default function ProdutosPage() {
           />
         </div>
 
-        <div className="flex items-center gap-2 overflow-x-auto w-full md:w-auto pb-2 md:pb-0 scrollbar-hide">
+        <div className="md:flex items-center gap-2 overflow-x-auto w-full md:w-auto pb-2 md:pb-0 scrollbar-hide hidden sm:block">
           {categorias.map((cat) => (
             <button
               key={cat}

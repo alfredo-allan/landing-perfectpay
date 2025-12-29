@@ -37,6 +37,7 @@ export default function Header() {
     { name: "Home", href: "/" },
     { name: "Produtos", href: "/produtos" },
     { name: "Avaliações", href: "/avaliacoes" },
+    { name: "Venda Conosco", href: "/venda-conosco" },
   ];
 
   return (
@@ -103,7 +104,7 @@ export default function Header() {
                 </button>
               </div>
             ) : (
-              <button className="bg-slate-900 dark:bg-white text-white dark:text-slate-900 px-6 py-2.5 rounded-full font-bold text-xs uppercase tracking-widest">
+              <button className="bg-slate-900 dark:bg-white text-white dark:text-slate-900 px-6 py-2.5 rounded-full font-bold text-xs uppercase tracking-widest hidden">
                 Login
               </button>
             )}

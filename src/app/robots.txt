@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Bloqueia apenas pastas de API se você vier a ter
+Disallow: /api/
+
+# Indica onde está o mapa do site
+Sitemap: https://landing-perfectpay.vercel.app/sitemap.xml

@@ -21,7 +21,6 @@ export default function InspecaoPage() {
   const { id } = useParams();
   const router = useRouter();
 
-  // Procura o produto no JSON usando o ID da URL
   const produto = produtosData.find((p) => p.id === id);
 
   if (!produto) {
@@ -40,9 +39,40 @@ export default function InspecaoPage() {
     );
   }
 
+  // --- FUNÇÃO DE DADOS ESTRUTURADOS (SEO GOOGLE) ---
+  const jsonLd = {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    name: produto.nome,
+    image: `https://landing-perfectpay.vercel.app${produto.thumbnail}`,
+    description: produto.descricao,
+    brand: {
+      "@type": "Brand",
+      name: "Perfect Check",
+    },
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: produto.rate,
+      reviewCount: produto.avaliacoes_count,
+    },
+    offers: {
+      "@type": "Offer",
+      url: `https://landing-perfectpay.vercel.app/inspecionar/${produto.id}`,
+      priceCurrency: "BRL",
+      price: produto.valor.replace("R$", "").replace(".", "").replace(",", "."),
+      itemCondition: "https://schema.org/NewCondition",
+      availability: "https://schema.org/InStock",
+    },
+  };
+
   return (
     <div className="container mx-auto px-4 py-12">
-      {/* Botão Voltar */}
+      {/* Script JSON-LD para o Google Search Console */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
       <button
         onClick={() => router.back()}
         className="flex items-center gap-2 text-slate-500 hover:text-brand-primary transition-colors mb-8 group font-bold uppercase text-[10px] tracking-widest"
@@ -55,7 +85,6 @@ export default function InspecaoPage() {
       </button>
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
-        {/* Lado Esquerdo - Visual (Onde a imagem estava "estourada") */}
         <div className="lg:col-span-5">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
@@ -67,12 +96,11 @@ export default function InspecaoPage() {
                 src={produto.thumbnail}
                 alt={produto.nome}
                 fill
-                className="object-contain p-8" // Padding interno para a imagem não tocar nas bordas
+                className="object-contain p-8"
                 priority
               />
             </div>
 
-            {/* Card de Score */}
             <div className="bg-brand-primary text-white p-8 rounded-4xl shadow-xl shadow-brand-primary/20">
               <div className="flex justify-between items-center mb-4">
                 <span className="text-[10px] font-black uppercase tracking-[0.2em]">
@@ -94,7 +122,6 @@ export default function InspecaoPage() {
           </motion.div>
         </div>
 
-        {/* Lado Direito - Conteúdo e Link de Afiliado */}
         <div className="lg:col-span-7">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -144,7 +171,7 @@ export default function InspecaoPage() {
                     className="flex items-center gap-3 bg-slate-50 dark:bg-slate-900 p-4 rounded-2xl border border-slate-100 dark:border-slate-800"
                   >
                     <Zap size={16} className="text-brand-primary" />
-                    <span className="text-sm font-bold text-foreground">
+                    <span className="text-sm font-bold text-slate-800 dark:text-slate-200">
                       {item}
                     </span>
                   </div>
@@ -152,7 +179,6 @@ export default function InspecaoPage() {
               </div>
             </div>
 
-            {/* BLOCO DE COMPRA FINAL (USANDO O CHECKOUT_URL) */}
             <div className="bg-slate-950 dark:bg-white p-8 rounded-[2.5rem] flex flex-col md:flex-row items-center justify-between gap-6 shadow-2xl">
               <div>
                 <span className="text-[10px] font-black text-slate-400 dark:text-slate-500 uppercase tracking-[0.2em] block mb-1">
@@ -166,9 +192,9 @@ export default function InspecaoPage() {
               </div>
 
               <a
-                href={produto.checkout_url} // AQUI ESTÁ O SEU LINK DE AFILIADO DO JSON
-                target="_blank" // Abre numa nova aba para não fechar o seu site
-                rel="noopener noreferrer" // Segurança para links externos
+                href={produto.checkout_url}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-full md:w-auto flex items-center justify-center gap-3 bg-brand-primary hover:bg-brand-primary/90 text-white px-10 py-5 rounded-2xl text-sm font-black uppercase tracking-tighter transition-all active:scale-95 shadow-lg shadow-brand-primary/20"
               >
                 Garantir Acesso Agora <Lock size={18} />
