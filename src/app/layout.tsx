@@ -4,7 +4,7 @@ import { AuthProvider } from "@/contexts/AuthContext";
 import Header from "@/components/sections/Header";
 import { Footer } from "@/components/sections/Footer";
 import { AdModal } from "@/components/AdModal";
-import Script from "next/script"; // Importação necessária para o AdSense
+import Script from "next/script";
 import "./globals.css";
 
 export const metadata = {
@@ -18,6 +18,10 @@ export const metadata = {
   robots: {
     index: true,
     follow: true,
+  },
+  // 1. ADICIONADO: Isso ajuda na verificação automática do AdSense
+  other: {
+    "google-adsense-account": "ca-pub-9286177086047133",
   },
 };
 
@@ -45,7 +49,9 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <head>
-        {/* Inserção do Código de Verificação do AdSense */}
+        {/* 2. ADICIONADO: Metatag explícita para verificação imediata */}
+        <meta name="google-adsense-account" content="ca-pub-9286177086047133" />
+
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9286177086047133"
