@@ -30,9 +30,11 @@ export function Footer() {
           <div className="col-span-1 md:col-span-1">
             <Link
               href="/"
-              className="text-2xl font-black font-heading uppercase tracking-tighter text-white"
+              className="text-2xl font-black font-heading uppercase tracking-tighter transition-colors"
             >
-              Perfect <span className="text-brand-primary italic">Check</span>
+              {/* Usamos !text-foreground para respeitar seu globals.css e o ThemeProvider */}
+              <span className="!text-foreground">Perfect</span>{" "}
+              <span className="text-brand-primary italic">Check</span>
             </Link>
             <p className="mt-4 text-sm text-slate-500 dark:text-slate-400 font-medium leading-relaxed">
               A maior curadoria de produtos digitais verificados. Qualidade,

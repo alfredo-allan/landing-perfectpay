@@ -4,9 +4,9 @@ import { AuthProvider } from "@/contexts/AuthContext";
 import Header from "@/components/sections/Header";
 import { Footer } from "@/components/sections/Footer";
 import { AdModal } from "@/components/AdModal";
+import Script from "next/script"; // Importação necessária para o AdSense
 import "./globals.css";
 
-// Mantemos o SEO aqui (Isso não afeta o CSS)
 export const metadata = {
   title: "Perfect Check | Marketplace de Produtos Verificados",
   description:
@@ -42,17 +42,22 @@ export default function RootLayout({
     <html
       lang="pt-br"
       className={`${montserrat.variable} ${inter.variable}`}
-      suppressHydrationWarning // Importante para evitar erro de hidratação com temas
+      suppressHydrationWarning
     >
+      <head>
+        {/* Inserção do Código de Verificação do AdSense */}
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9286177086047133"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
+      </head>
       <body className="antialiased">
-        {/* Deixamos o body limpo como você tinha antes */}
         <AuthProvider>
           <ThemeProvider>
             <Header />
-
-            {/* O AdModal e o Footer ficam aqui dentro para respeitarem o ThemeProvider */}
             <main>{children}</main>
-
             <AdModal />
             <Footer />
           </ThemeProvider>
