@@ -70,6 +70,14 @@ export function Footer() {
                   Venda Conosco <Handshake size={14} />
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/sobre"
+                  className="text-sm font-bold text-slate-600 dark:text-slate-400 hover:text-brand-primary transition-colors flex items-center gap-2"
+                >
+                  Sobre <Info size={14} />
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -103,6 +111,7 @@ export function Footer() {
             <h4 className="text-[10px] font-black uppercase tracking-[0.2em] text-brand-primary mb-6">
               Suporte Especializado
             </h4>
+
             <a
               href={devUrl}
               target="_blank"
