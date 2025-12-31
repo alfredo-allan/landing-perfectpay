@@ -1,16 +1,16 @@
 [
   {
-    "id": "trafego-pago",
-    "categoria": "Tráfego Pago",
-    "slug_categoria": "trafego-pago",
+    "id": "trafego-pago-ads",
+    "categoria": "Marketing Digital",
+    "slug_categoria": "marketing-digital",
     "thumbnail": "/images/trafego_pago.png",
-    "nome": "Campanhas lucrativas ADS",
-    "descricao": "Domine as Vendas Online do Zero ao Lucro Aprenda o passo a passo prático de Facebook e Google Ads para vender qualquer produto ou serviço. Um treinamento direto, sem enrolação, feito para quem busca atrair clientes qualificados e lucrar todos os dias, independente do nicho.",
+    "nome": "Campanhas Lucrativas ADS",
+    "descricao": "Domine as Vendas Online do Zero ao Lucro. Aprenda o passo a passo prático de Facebook e Google Ads para vender qualquer produto ou serviço de forma escalável.",
     "valor": "R$ 200,00",
     "checkout_url": "https://go.hotmart.com/O103565470K",
     "rate": 4.9,
     "avaliacoes_count": 1240,
-    "tags": ["Mais Vendido", "Hot"],
+    "tags": ["Tráfego Pago", "Vendas", "Ads"],
     "reviews_usuarios": [
       {
         "nome": "Marcos Silva",
@@ -20,57 +20,57 @@
     ]
   },
   {
-    "id": "mestre-do-exel",
-    "categoria": "Automação",
-    "slug_categoria": "automacao",
+    "id": "mestre-do-excel",
+    "categoria": "Produtividade",
+    "slug_categoria": "produtividade",
     "thumbnail": "/images/exel.png",
     "nome": "Mestre do Excel",
-    "descricao": "Mestre do Excel: Do Zero ao Dashboard Domine a ferramenta mais exigida do mercado. Aprenda a automatizar planilhas, criar relatórios inteligentes e dashboards de alto impacto para acelerar sua carreira.",
+    "descricao": "Do Zero ao Dashboard. Domine a ferramenta mais exigida do mercado. Aprenda a automatizar planilhas e criar relatórios inteligentes de alto impacto.",
     "valor": "R$ 97,00",
     "checkout_url": "https://go.hotmart.com/S103565419Y?dp=1",
     "rate": 4.7,
     "avaliacoes_count": 850,
-    "tags": ["Produtividade", "Automação", "Escalável"],
+    "tags": ["Excel", "Automação", "Carreira"],
     "reviews_usuarios": [
       {
         "nome": "Ricardo Souza",
-        "comentario": "Salvou minha operação, a re`cuperação de carrinho é bizarra.",
+        "comentario": "Salvou minha operação, a recuperação de carrinho é bizarra.",
         "estrelas": 5
       }
     ]
   },
   {
-    "id": "Word-Express",
-    "categoria": "Automação",
-    "slug_categoria": "automacao",
+    "id": "word-express",
+    "categoria": "Produtividade",
+    "slug_categoria": "produtividade",
     "thumbnail": "/images/curso_wd.jpeg",
     "nome": "Word Express",
-    "descricao": "Word Express: Documentos de Alto Impacto Domine a edição profissional de documentos. Aprenda do zero à formatação avançada, criando relatórios, propostas e apresentações que se destacam no mercado de trabalho.",
+    "descricao": "Documentos de Alto Impacto. Domine a edição profissional, formatação avançada e criação de propostas comerciais que se destacam no mercado.",
     "valor": "R$ 57,00",
     "checkout_url": "https://go.hotmart.com/C103568007I?dp=1",
     "rate": 4.0,
     "avaliacoes_count": 780,
-    "tags": ["Produtividade", "Automação", "Escalável"],
+    "tags": ["Escrita", "Documentos", "Oficial"],
     "reviews_usuarios": [
       {
         "nome": "Laís",
-        "comentario": "Em um mundo cada vez mais digital, ter habilidades avançadas em Microsoft Word se tornou essencial para o sucesso profissional.",
+        "comentario": "Essencial para o sucesso profissional hoje em dia.",
         "estrelas": 4
       }
     ]
   },
   {
-    "id": "os-mitos-do-hardware",
-    "categoria": "computação",
-    "slug_categoria": "computação",
+    "id": "mitos-do-hardware",
+    "categoria": "Tecnologia",
+    "slug_categoria": "tecnologia",
     "thumbnail": "/images/hardware_c.jpeg",
     "nome": "Os Mitos do Hardware",
     "valor": "R$ 24,90",
-    "descricao": "Os Mitos do Hardware: Guia Definitivo Chega de ser enganado. Desvende os maiores mitos da informática, aprenda a montar o seu PC Gamer do jeito certo e domine conhecimentos técnicos de hardware que ninguém te conta na internet.",
+    "descricao": "Guia Definitivo de Hardware. Desvende os maiores mitos da informática, aprenda a montar seu PC Gamer e domine conhecimentos técnicos reais.",
     "checkout_url": "https://go.hotmart.com/P103578279K?dp=1",
     "rate": 4.9,
     "avaliacoes_count": 850,
-    "tags": ["Produtividade", "Computação", "Internet"],
+    "tags": ["Hardware", "PC Gamer", "Manutenção"],
     "reviews_usuarios": [
       {
         "nome": "Rogerio",
@@ -80,122 +80,122 @@
     ]
   },
   {
-    "id": "Dominando-o-Microsoft-Word",
-    "categoria": "computação",
-    "slug_categoria": "computação",
-    "thumbnail": "/images/word_curso.png",
-    "nome": "Dominando o Microsoft Word",
-    "valor": "R$ 97,00",
-    "descricao": "Nesse curso em vídeo aulas você vai aprender tudo que precisa para trabalhar com o programa Microsoft Word, aumentando a produtividade e destacando-se nas atividades diárias. Você verá que o Word é um software muito poderoso e extremamente essencial para qualquer estudante ou profissional atual.",
-    "checkout_url": "https://go.hotmart.com/M103578528V?dp=1",
-    "rate": 5.0,
-    "avaliacoes_count": 750,
-    "tags": ["Produtividade", "Computação", "Internet"],
-    "reviews_usuarios": [
-      {
-        "nome": "Flavio",
-        "comentario": "Estou cursando e aprendendo muito sobre o Word.",
-        "estrelas": 4
-      }
-    ]
-  },
-  {
-    "id": "Formacao-Trader-Zero-Avancado",
-    "categoria": "trade",
-    "slug_categoria": "Trade",
+    "id": "formacao-trader-institucional",
+    "categoria": "Finanças",
+    "slug_categoria": "financas",
     "thumbnail": "/images/curso_trader.png",
-    "nome": "Formação Trader do Zero ao Avançado",
+    "nome": "Trader do Zero ao Avançado",
     "valor": "R$ 2.997,00",
-    "descricao": "Caixa Preta do Day Trade: Método Institucional Opere como os grandes bancos. O trader Hermann Greb abre 20 anos de experiência em instituições europeias para te entregar um operacional consistente, sem a complexidade do Tape Reading tradicional.",
+    "descricao": "Método Institucional. Opere como os grandes bancos. Operational consistente baseado em 20 anos de experiência em instituições europeias.",
     "checkout_url": "https://go.hotmart.com/U103584451S?ap=2b01",
     "rate": 4.3,
     "avaliacoes_count": 550,
-    "tags": ["Produtividade", "Trade", "Investimentos"],
+    "tags": ["Day Trade", "Investimentos", "Renda Variável"],
     "reviews_usuarios": [
       {
         "nome": "Jose",
-        "comentario": "Expecialista no assunto, recomendo a todos que querem aprender sobre trade.",
+        "comentario": "Especialista no assunto, recomendo!",
         "estrelas": 4
       }
     ]
   },
   {
-    "id": "Black-November-Onebitcode-2025",
+    "id": "formacao-onebitcode-fullstack",
     "categoria": "Programação",
-    "slug_categoria": "T.I",
+    "slug_categoria": "programacao",
     "thumbnail": "/images/Onibitcode.jpg",
-    "nome": "Black November Onebitcode 2025",
+    "nome": "Combo FullStack Onebitcode 2025",
     "valor": "R$ 997,00",
-    "descricao": "A MAIOR oferta do ano para TODOS os cursos da Onebitcode! Acesso imediato aos 8 cursos completos da Onebitcode: [ Formação Full Stack JavaScript ] [ Formação Python ] [ Formação Ruby on Rails ] [ IA para DEVs ] [ Mobile com React Native ] [ 30 desafios de JavaScript ] [ Coleção 18 Habilidades Essenciais ] [ Automações com N8N ] + MasterClass Vibecoding + Software de Precificação de Freelas + Planner de estudos + Acesso Vitalício",
+    "descricao": "Acesso vitalício a 8 cursos completos: Full Stack JavaScript, Python, Ruby on Rails, IA para DEVs e Mobile com React Native.",
     "checkout_url": "https://go.hotmart.com/T103584665F?ap=8fa5",
     "rate": 5.0,
     "avaliacoes_count": 950,
-    "tags": ["Produtividade", "Programação", "T.I"],
+    "tags": ["FullStack", "JavaScript", "Carreira Dev"],
     "reviews_usuarios": [
       {
         "nome": "Pedro",
-        "comentario": "Ótimo conteúdo para quem quer entrar na área de programação.",
+        "comentario": "Ótimo conteúdo para entrar na área.",
         "estrelas": 5
       }
     ]
   },
   {
-    "id": "Automacoes-com-N8N-IA-Onebitcode",
+    "id": "automacoes-n8n-ia",
     "categoria": "Programação",
-    "slug_categoria": "T.I",
+    "slug_categoria": "programacao",
     "thumbnail": "/images/capascursosn8n.png",
-    "nome": "Automações com N8N e IA - Onebitcode",
+    "nome": "Automações com N8N e IA",
     "valor": "R$ 697,02",
-    "descricao": "A MAIOR oferta do ano para TODOS os cursos da Onebitcode! Acesso imediato aos 8 cursos completos da Onebitcode: [ Formação Full Stack JavaScript ] [ Formação Python ] [ Formação Ruby on Rails ] [ IA para DEVs ] [ Mobile com React Native ] [ 30 desafios de JavaScript ] [ Coleção 18 Habilidades Essenciais ] [ Automações com N8N ] + MasterClass Vibecoding + Software de Precificação de Freelas + Planner de estudos + Acesso Vitalício",
+    "descricao": "Aprenda a criar fluxos inteligentes com N8N integrados a Inteligência Artificial para automatizar processos de negócios complexos.",
     "checkout_url": "https://go.hotmart.com/E103584752H?ap=8f10",
     "rate": 5.0,
     "avaliacoes_count": 950,
-    "tags": ["Produtividade", "Programação", "T.I"],
+    "tags": ["N8N", "IA", "Automação Low-Code"],
     "reviews_usuarios": [
       {
         "nome": "Gustavo",
-        "comentario": "Conteúdo excelente para quem quer aprender sobre automações.",
+        "comentario": "Excelente para quem quer dominar automações.",
         "estrelas": 5
       }
     ]
   },
   {
-    "id": "Web-Scraping-com-Python-2025",
+    "id": "web-scraping-python-lead-gen",
     "categoria": "Programação",
-    "slug_categoria": "T.I",
+    "slug_categoria": "programacao",
     "thumbnail": "/images/WebScrapingcomPython2025.png",
     "nome": "Web Scraping com Python 2025",
     "valor": "R$ 97,00",
-    "descricao": "Web Scraping Profissional com Python Domine a extração estratégica de dados. Aprenda a criar robôs para minerar leads do Instagram/LinkedIn, monitorar preços na Amazon/AliExpress e automatizar coletas complexas sem ser bloqueado.",
+    "descricao": "Extração Estratégica de Dados. Crie robôs para minerar leads e monitorar preços sem ser bloqueado.",
     "checkout_url": "https://go.hotmart.com/L103584896W?dp=1",
     "rate": 5.0,
     "avaliacoes_count": 950,
-    "tags": ["Automação", "Python", "Data Intelligence"],
+    "tags": ["Python", "Dados", "Scraping"],
     "reviews_usuarios": [
       {
         "nome": "Alfredo",
-        "comentario": "Tinha muito para aprender e não sabia por onde começar. Esse curso me ajudou muito!",
+        "comentario": "Esse curso me ajudou muito a começar!",
         "estrelas": 5
       }
     ]
   },
   {
-    "id": "Engenharia-de-Dados",
-    "categoria": "Programação",
-    "slug_categoria": "T.I",
+    "id": "engenharia-de-dados-master",
+    "categoria": "Eng de Dados",
+    "slug_categoria": "dados",
     "thumbnail": "/images/cursopython.png",
-    "nome": "Engenharia de Dados",
+    "nome": "Formação Engenharia de Dados",
     "valor": "R$ 649,90",
-    "descricao": "Mestre dos Dados: SQL, Python e Bancos Modernos Torne-se um profissional de dados completo. Domine do SQL Avançado ao NoSQL, integre Python com Google BigQuery e aprenda a construir pipelines de dados (ETL) com mais de 100 scripts prontos para o seu portfólio.",
+    "descricao": "Mestre dos Dados: SQL, Python e Cloud. Domine pipelines de dados (ETL) e integração com Google BigQuery.",
     "checkout_url": "https://go.hotmart.com/S103584912H?dp=1",
     "rate": 5.0,
     "avaliacoes_count": 950,
-    "tags": ["Automação", "Python", "Data Intelligence"],
+    "tags": ["Big Data", "Cloud", "ETL"],
     "reviews_usuarios": [
       {
         "nome": "Arthur",
-        "comentario": "Top",
-        "estrelas": 5
+        "comentario": "Top!",
+        "stars": 5
+      }
+    ]
+  },
+  {
+    "id": "formacao-espiritualidade",
+    "categoria": "Espiritualidade",
+    "slug_categoria": "espiritualidade",
+    "thumbnail": "/images/capa_produto.png",
+    "nome": "Formação Espiritualidade",
+    "valor": "R$ 24,99",
+    "descricao": "Iniciação ao Sermão da Montanha, mergulhando em águas profundas",
+    "checkout_url": "https://go.perfectpay.com.br/PPU38CQ5DNH",
+    "rate": 5.0,
+    "avaliacoes_count": 950,
+    "tags": ["Espiritualidade", "Fé", "Cristianismo"],
+    "reviews_usuarios": [
+      {
+        "nome": "Nikolas",
+        "comentario": "A melhor experiência que já tive !",
+        "stars": 5
       }
     ]
   }
